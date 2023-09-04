@@ -337,11 +337,11 @@ Hasil akurasi dari data latih `DES Opt` memiliki hasil yang lebih baik dibanding
 # Perbandingan Metode Pemulusan DMA dan DES
 
 ```{r}
-perbandingan_metode <-
+perbandingan <-
   matrix(c(SSE_test.dma, MSE_test.dma, MAPE_test.dma, SSEtestingdesopt,MSEtestingdesopt,MAPEtestingdesopt),
          nrow=3,ncol=2)
-row.names(perbandingan_metode)<- c("SSE", "MSE", "MAPE")
-colnames(perbandingan_metode) <- c("DMA","DES")
-perbandingan_metode
+row.names(perbandingan)<- c("SSE", "MSE", "MAPE")
+colnames(perbandingan) <- c("DMA","DES")
+perbandingan
 ```
 Kedua metode dapat dibandingkan dengan menggunakan ukuran akurasi yang sama. Berdasarkan nilai SSE, MSE, dan MAPE, metode DES lebih baik karena memiliki ukuran akurasi yang lebih kecil dibandingkan dengan metode DMA. Berdasarkan nilai MAPE nya kedua metode tersebut memberikan peramalan dengan akurasi yang sangat baik karena kurang dari 10%.
