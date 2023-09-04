@@ -196,7 +196,7 @@ points(datachicken.ts)
 plot(train.ts, col="pink",main="Plot data latih")
 points(train.ts)
 
-plot(test.ts, col="red",main="Plot data uji")
+plot(test.ts, col="orange",main="Plot data uji")
 points(test.ts)
 ```
 
