@@ -186,7 +186,7 @@ test.ts  <- ts(testing$Price)
 
 ### Eksplorasi Data
 
-Eksplorasi dilakukan dengan membuat plot data deret waktu untuk keseluruhan data, data latih, dan data uji.
+Membuat plot data deret waktu untuk keseluruhan data, data latih, dan data uji.
 
 ```{r}
 #eksplorasi data
