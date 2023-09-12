@@ -22,7 +22,7 @@ Sumber data : <https://www.kaggle.com/datasets/jarredpriester/california-wine-pr
 
 ```{r}
 library(rio)
-data <- import("https://raw.githubusercontent.com/Anissls333/mpdw/main/data/data2.csv")
+data <- import("https://raw.githubusercontent.com/Anissls333/mpdw/main/pertemuan%202/data2.csv")
 View(data)
 ```
 
