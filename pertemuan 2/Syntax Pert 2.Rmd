@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Tugas Pertemuan 2 MPDW"
 author: "Anis Sulistiyowati - G1401211084"
@@ -275,3 +276,6 @@ akurasi
 ```
 
 Hasil penanganan autokorelasi dengan metode Cochrane-Orcutt dan Hildreth-Lu imemiliki nilai `SSE` sebesar $24581149.5$ dan $ 24945801.3$. Lebih rendah jika dibandingkan dengan SSE awal, yaitu sebesar \$26334669 \$. Hal ini menunjukkan bahwa model setelah penanganan lebih baik dibandingkan model awal ketika autokorelasi masih terjadi.
+=======
+
+>>>>>>> b7b01e1b1880c6bba6ca00b727409214f290f889
