@@ -62,7 +62,7 @@ model_wine = lm(Production~Value.Dollars.+Yield.Unit.Acre., data=df)
 summary(model_wine)
 ```
 
-Model yang dihasilkan adalah $$Production=-(4.254e+02)+(3.932e-04)Value.Dollars.+(1.384e+03) Yield.Unit.Acre.$$ Dari hasil ringkasan model diperoleh beberapa informas: 1. Uji F $p-value = (2.2e-16) < \alpha= 5% (Tolak H_0)$ Artinya: Minimal terdapat satu peubah penjelas yang berpengaruh signifikan terhadap `Production` pada taraf 5%.
+Model yang dihasilkan adalah $$Production=-(4.254e+02)+(3.932e-04)Value.Dollars.+(1.384e+03) Yield.Unit.Acre.$$ Dari hasil ringkasan model diperoleh beberapa informas: 1. Uji F $p-value = (2.2e-16) < \alpha= 5% (Tolak H_0)$ Artinya: Minimal terdapat satu peubah penjelas yang berpengaruh signifikan terhadap `Production` pada taraf 5%
 
 2.  Uji t Hasil uji-t parsial parameter regresi koefisien regresi `Value.Dollars.dan Yield.Unit.Acre.` juga menunjukkan hal yang sama, yaitu memiliki *p-value* \< $\alpha$ (5%) sehingga nyata dalam taraf 10%.
 
