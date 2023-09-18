@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Tugas Pertemuan 3 MPDW"
 author: "Anis Sulistiyowati - G1401211084"
@@ -44,7 +45,7 @@ Model Koyck didasarkan pada asumsi bahwa semakin jauh jarak lag peubah independe
 
 Koyck mengusulkan suatu metode untuk menduga model dinamis distributed lag dengan mengasumsikan bahwa semua koefisien $\beta$ mempunyai tanda sama.
 
-Model kyock merupakan jenis paling umum dari model infinite distributed lag dan juga dikenal sebagai geometric lag
+Model kyock merupakan jenis paling umum dari model infinite distributed lag dan juga dikenal sebagai geometric lag.
 
 $$
 y_t=a(1-\lambda)+\beta_0X_t+\beta_1Z_t+\lambda Y_{t-1}+V_t
@@ -337,3 +338,6 @@ legend("topleft",c("aktual", "koyck","DLM 1","DLM 2", "autoregressive"), lty=1, 
 ```
 
 Berdasarkan plot tersebut, terlihat bahwa plot yang paling mendekati data aktualnya adalah Model Koyck, sehingga dapat disimpulkan model terbaik dalam hal ini adalah model regresi Koyck.
+=======
+
+>>>>>>> 7e881b7aa541377f7c15dd380e074c3c5805ca11
