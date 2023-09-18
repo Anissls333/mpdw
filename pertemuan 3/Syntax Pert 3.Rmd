@@ -44,7 +44,7 @@ Model Koyck didasarkan pada asumsi bahwa semakin jauh jarak lag peubah independe
 
 Koyck mengusulkan suatu metode untuk menduga model dinamis distributed lag dengan mengasumsikan bahwa semua koefisien $\beta$ mempunyai tanda sama.
 
-Model kyock merupakan jenis paling umum dari model infinite distributed lag dan juga dikenal sebagai geometric lag.
+Model kyock merupakan jenis paling umum dari model infinite distributed lag dan juga dikenal sebagai geometric lag
 
 $$
 y_t=a(1-\lambda)+\beta_0X_t+\beta_1Z_t+\lambda Y_{t-1}+V_t
